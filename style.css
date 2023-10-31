@@ -1,0 +1,25 @@
+#container {
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1px;
+    border: 3px solid red;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    flex: 1;
+}
+
+.coloumn {
+    display: flex;
+    flex: 1;
+    border: 0.5px solid black;
+}
